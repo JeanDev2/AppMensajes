@@ -1,0 +1,59 @@
+.friend-chat-content{
+	max-inline-size: 440px;
+	flex-grow: 1;
+	overflow:scroll;
+
+}
+.friend-chat{
+	display: flex;
+	align-items: center;
+	block-size: var(--friendChat);
+	box-sizing: border-box;
+	padding-inline-start:1rem;
+	padding-inline-end: .5rem;
+	padding-block: 1rem;
+	gap: .5rem;
+}
+
+.friend-chat:hover{
+	background: var(--grey-2);
+}
+
+.friend-chat img {
+	border-radius: 50%;
+}
+
+.friend-group{
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+
+}
+
+.friend-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.friend-content h2{
+	font: var(--body-16regular);
+	margin: 0;
+}
+
+.friend-date{
+	font: var(--caption-12regular);
+	color: var(--grey);
+}
+
+.friend-chat p{
+	font: var(--caption-12regular);
+	color: var(--grey);
+	margin: 0;
+	max-inline-size: 20rem;
+}
+
+.friend-message{
+	display: flex;
+	align-items: center;
+	gap: .2rem;
+}

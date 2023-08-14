@@ -1,0 +1,15 @@
+.layout-general{
+
+	--userListSize:27.5rem;
+
+	display: grid;
+	grid-template-columns: var(--userListSize) 1fr;
+	/* grid-template-rows: ; */
+}
+.layout-primary	{
+
+}
+.layout-secondary{
+	flex-grow: 1;
+
+}

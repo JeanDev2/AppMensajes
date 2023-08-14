@@ -1,0 +1,42 @@
+.action-list{
+	block-size: var(--actionsSize);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	background: var(--grey-4);
+	box-sizing: border-box;
+}
+
+.button-action{
+	padding-inline-start: 1rem;
+	display: flex;
+	gap: 20px;
+}
+
+button{
+	border: none;
+	cursor: pointer;
+}
+
+.send{
+	flex-shrink: 0;
+	flex-grow: 1;
+}
+
+.send input{
+	font: var(--body-16regular);
+	color: var(--grey);
+	border-radius: 50px;
+	border: none;
+	width: 100%;
+	height: 52px;
+	padding-inline-start: 24px;
+	padding-block: 16px;
+}
+
+
+.button-microfone{
+
+	padding-inline-end: 1rem;
+}

@@ -1,0 +1,11 @@
+.header-perfil{
+	block-size: var(--headerSize);
+	display: flex;
+	align-items: center;
+	padding-inline-start: 1rem;
+	padding-block:1rem;
+	background: var(--grey-4);
+	box-sizing: border-box;
+	max-inline-size: 440px;
+	border-right: 2px solid #aeaeaf;
+}

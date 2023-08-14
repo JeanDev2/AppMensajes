@@ -1,0 +1,25 @@
+.perfil-content{
+	background: var(--grey-3);
+	block-size: 768px;
+}
+
+.perfil-header{
+	background: var(--green-2);
+	block-size: 120px;
+	display: flex;
+	gap: 1rem;
+	align-items: end;
+	padding: 1rem;
+}
+
+.perfil-header p{
+	color: var(--white);
+}
+
+/* .perfil-image{
+
+} */
+
+.perfil-name{
+	background: var(--white);
+}
